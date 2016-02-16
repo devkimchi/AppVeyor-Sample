@@ -17,6 +17,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AppVeyorSample", "src\AppVe
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B3D44C7F-C718-4459-B939-B4FECCCA2DBD}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AppVeyorSample.Tests", "test\AppVeyorSample.Tests\AppVeyorSample.Tests.xproj", "{021B83CB-F113-4F1D-93D6-EF58ABDBC32C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,11 +29,16 @@ Global
 		{2950AE31-4097-4C1B-886F-0AA18BA3910A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2950AE31-4097-4C1B-886F-0AA18BA3910A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2950AE31-4097-4C1B-886F-0AA18BA3910A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{021B83CB-F113-4F1D-93D6-EF58ABDBC32C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{021B83CB-F113-4F1D-93D6-EF58ABDBC32C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{021B83CB-F113-4F1D-93D6-EF58ABDBC32C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{021B83CB-F113-4F1D-93D6-EF58ABDBC32C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2950AE31-4097-4C1B-886F-0AA18BA3910A} = {A4FFA3C6-1FA6-4F52-9982-0D8A413D3BC5}
+		{021B83CB-F113-4F1D-93D6-EF58ABDBC32C} = {B3D44C7F-C718-4459-B939-B4FECCCA2DBD}
 	EndGlobalSection
 EndGlobal
